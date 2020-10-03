@@ -8,5 +8,5 @@ Two versions are enabled for the API, 1.0, 2.0
 - Clone the repo
 - do: dotnet run
 - server will start by default  on port 5000,5001 based on launchsettings
-- access the api at https://localhost:5001/api/v1/WeatherForecast
-- metadata endpoint is at https://localhost:5001/api/v1/WeatherForecast/metadata
+- access the api at https://localhost:5001/api/Weather
+- metadata endpoint is at https://localhost:5001/api/Weather/metadata
