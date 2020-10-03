@@ -7,9 +7,7 @@ using System.Linq;
 namespace welcome_api.Controllers
 {
     [ApiController]
-    [ApiVersion("1.0")]
-    [ApiVersion("2.0")]
-    [Route("api/v{version:apiVersion}/WeatherForecast")]
+    [Route("api/Weather")]
     public class WeatherForecastController : BaseApiController
     {
         private static readonly string[] Summaries = new[]
